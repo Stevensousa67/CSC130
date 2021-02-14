@@ -8,7 +8,24 @@ public class Chapter3_Exercise1 {
 		 * 
 		 */
 		
+		int test1 = 1;
+		System.out.printf("Printing a int test: %d\n", test1);
 		
+		// Using %f for integers displays the following error:
+		// Exception in thread "main" java.util.IllegalFormatConversionException: f != java.lang.Integer
+		
+		
+		double test2 = 2.2;
+		System.out.printf("Printing a double test: %f\n", test2);
+		
+		// Using %d for doubles displays the following error:
+		// Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.Double
+		
+		//System.out.printf("Printing using one specifier: %d%f", test1);
+		
+		// Using two specifiers while providing one value gives the following error:
+		// Exception in thread "main" java.util.MissingFormatArgumentException: Format specifier '%f'
 
+		
 	}// end main
 }// end class
