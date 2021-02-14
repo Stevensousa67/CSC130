@@ -62,6 +62,5 @@ public class Chapter2_Exercise3 {
 		System.out.println("Time elapsed doing Exercise 3: " + time_elapsed_hour + " hours " + time_elapsed_minute + " minutes " + time_elapsed_second + " seconds.\n"
 				+ "That's because I finished 3.4 and went to bed last night. Finished this morning.");
 		
-		
 	}// end main
 }// end class
