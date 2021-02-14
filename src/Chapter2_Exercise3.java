@@ -31,7 +31,7 @@ public class Chapter2_Exercise3 {
 		 * 
 		 */
 		
-		int total_seconds_day = 86399;
+		int total_seconds_day = 86400;
 		int seconds_left_day = total_seconds_day - total_seconds_since_midnight;
 		
 		System.out.println("There are " + seconds_left_day + " seconds left in the day.");
@@ -41,7 +41,15 @@ public class Chapter2_Exercise3 {
 		 * 
 		 */
 		
+		// Needed to convert int variables to float types in order to make division produce an outcome.
+		float porcentage = ((float)total_seconds_since_midnight / (float)total_seconds_day) * 100;
 		
+		System.out.println(porcentage + "% of the of the day has passed so far.");
+		
+		/* 6) Change the values of hour, minute, and second to reflect the current time. The write 
+		 * code to compute the elapsed time since you started working on this exercise.
+		 * 
+		 */
 		
 		
 	}// end main
