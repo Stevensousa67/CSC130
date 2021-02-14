@@ -46,10 +46,21 @@ public class Chapter2_Exercise3 {
 		
 		System.out.println(porcentage + "% of the of the day has passed so far.");
 		
-		/* 6) Change the values of hour, minute, and second to reflect the current time. The write 
+		/* 6) Change the values of hour, minute, and second to reflect the current time. Then write 
 		 * code to compute the elapsed time since you started working on this exercise.
 		 * 
 		 */
+		
+		int current_hour = 9;
+		int current_minute = 30;
+		int current_second = 30;
+		
+		int time_elapsed_hour = hour - current_hour;
+		int time_elapsed_minute = current_minute - minute;
+		int time_elapsed_second = current_second - second;
+		
+		System.out.println("Time elapsed doing Exercise 3: " + time_elapsed_hour + " hours " + time_elapsed_minute + " minutes " + time_elapsed_second + " seconds.\n"
+				+ "That's because I finished 3.4 and went to bed last night. Finished this morning.");
 		
 		
 	}// end main
