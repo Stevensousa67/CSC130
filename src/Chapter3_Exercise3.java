@@ -28,7 +28,9 @@ public class Chapter3_Exercise3 {
 		hour = hour / 60;
 		
 		
-		System.out.printf(seconds + " seconds = " + hour + " hours, " + minute + " minutes, and " + converted_seconds + " seconds.");
+		// I couldn't figure out how to properly use the %d in the printf statement for each variables.
+		// Would really appreciate some enlightenment, professor. Thank you!
+		System.out.printf(seconds + " seconds =  " + hour + " hours, " + minute + " minutes, and " + converted_seconds + " seconds.");
 		
 		input.close();
 		
