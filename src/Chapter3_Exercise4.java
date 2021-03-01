@@ -61,7 +61,7 @@ public class Chapter3_Exercise4 {
         System.out.println("The number I was thinking of is: " + number);
         System.out.println("You were off by: " + difference);
         
-        
+        input.close();
 		
 	}// end class
 }// end class
