@@ -27,8 +27,5 @@ public class Chapter3_Exercise2 {
 		System.out.println(celsius + " C = " + fahrenheit + " F");
 		
 		input.close();
-		
-		
-		
 	}// end main
 }// end class
